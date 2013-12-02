@@ -1,0 +1,61 @@
+/*
+Baseline - a designer framework
+Copyright (C) 2009 Stephane Curzi, ProjetUrbain.com
+Creative Commons Attribution-Share Alike 3.0 License
+*/
+
+/******************** Alternate table style ********************/
+/* Table */
+.table-reverse						{ border: none; top: 0; padding-bottom: 18px; }
+.table-reverse th					{ border: none; line-height: 18px; padding: 9px 18px 9px 0; background: #666; color: #fff; }
+
+.table-reverse th:first-child,
+.table-reverse td:first-child		{ padding-left: 18px; }
+.table-reverse th:last-child,
+.table-reverse td:last-child		{ padding-right: 18px; }
+
+.table-reverse caption				{ top: 5px; margin-bottom: 18px; }
+
+/* Columns */
+.table-reverse.table-column th:first-child, .table-reverse.table-column td:first-child,
+.table-reverse.table-column th:last-child, .table-reverse.table-column td:last-child					{ width: 216px; }
+
+.table-reverse.table-column th:first-child.width1, .table-reverse.table-column td:first-child.width1,
+.table-reverse.table-column th:last-child.width1, .table-reverse.table-column td:last-child.width1		{ width: 216px; }
+
+.table-reverse.table-column th:first-child.width2, .table-reverse.table-column td:first-child.width2,
+.table-reverse.table-column th:last-child.width2, .table-reverse.table-column td:last-child.width2		{ width: 468px; }
+
+.table-reverse.table-column th:first-child.width3, .table-reverse.table-column td:first-child.width3,
+.table-reverse.table-column th:last-child.width3, .table-reverse.table-column td:last-child.width3		{ width: 720px; }
+
+.table-reverse.table-column th:first-child.width4, .table-reverse.table-column td:first-child.width4,
+.table-reverse.table-column th:last-child.width4, .table-reverse.table-column td:last-child.width4		{ width: 972px; }
+
+/* Units */
+.table-reverse.table-unit th:first-child, .table-reverse.table-unit td:first-child,
+.table-reverse.table-unit th:last-child, .table-reverse.table-unit td:last-child						{ width: 90px; }
+
+.table-reverse.table-unit th:first-child.unitx1, .table-reverse.table-unit td:first-child.unitx1,
+.table-reverse.table-unit th:last-child.unitx1, .table-reverse.table-unit td:last-child.unitx1			{ width: 90px; }
+
+.table-reverse.table-unit th:first-child.unitx2, .table-reverse.table-unit td:first-child.unitx2,
+.table-reverse.table-unit th:last-child.unitx2, .table-reverse.table-unit td:last-child.unitx2			{ width: 216px; }
+
+.table-reverse.table-unit th:first-child.unitx3, .table-reverse.table-unit td:first-child.unitx3,
+.table-reverse.table-unit th:last-child.unitx3, .table-reverse.table-unit td:last-child.unitx3			{ width: 342px; }
+
+.table-reverse.table-unit th:first-child.unitx4, .table-reverse.table-unit td:first-child.unitx4,
+.table-reverse.table-unit th:last-child.unitx4, .table-reverse.table-unit td:last-child.unitx4			{ width: 468px; }
+
+.table-reverse.table-unit th:first-child.unitx5, .table-reverse.table-unit td:first-child.unitx5,
+.table-reverse.table-unit th:last-child.unitx5, .table-reverse.table-unit td:last-child.unitx5			{ width: 594px; }
+
+.table-reverse.table-unit th:first-child.unitx6, .table-reverse.table-unit td:first-child.unitx6,
+.table-reverse.table-unit th:last-child.unitx6, .table-reverse.table-unit td:last-child.unitx6			{ width: 720px; }
+
+.table-reverse.table-unit th:first-child.unitx7, .table-reverse.table-unit td:first-child.unitx7,
+.table-reverse.table-unit th:last-child.unitx7, .table-reverse.table-unit td:last-child.unitx7			{ width: 846px; }
+
+.table-reverse.table-unit th:first-child.unitx8, .table-reverse.table-unit td:first-child.unitx8,
+.table-reverse.table-unit th:last-child.unitx8, .table-reverse.table-unit td:last-child.unitx8			{ width: 972px; }

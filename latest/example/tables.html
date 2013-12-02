@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Baseline - Tables</title>
+
+		<link type="text/css" rel="stylesheet" media="screen" href="../css/uncompressed/baseline.reset.css">
+		<link type="text/css" rel="stylesheet" media="screen" href="../css/uncompressed/baseline.base.css">
+		<link type="text/css" rel="stylesheet" media="screen" href="../css/uncompressed/baseline.type.css">
+		<link type="text/css" rel="stylesheet" media="screen" href="../css/uncompressed/baseline.table.css">
+		<link type="text/css" rel="stylesheet" media="screen" href="../css/uncompressed/baseline.form.css">
+		<link type="text/css" rel="stylesheet" media="screen" href="../css/uncompressed/baseline.grid.css">
+		<link type="text/css" rel="stylesheet" media="screen" href="../css/alternate/baseline.reverse-table.css">
+		
+		<!--<link type="text/css" rel="stylesheet" media="screen" href="../css/compressed/baseline.compress.css">-->
+		
+		<link type="text/css" rel="stylesheet" media="screen" href="css/example.css">
+		<script type="text/javascript" src="scripts/html5.js"></script>
+	</head>
+
+	<body class="page-form">
+		<div id="page">
+			<header id="branding" class="column width2 first">
+				<figure class="logo">
+					<h1>baseline</h1>
+					<a href="/"></a>
+				</figure>
+			</header>
+			<nav class="column width2">
+				<ul>
+					<li><a href="typography.html">Typography</a></li>
+					<li><a href="tables.html">Tables</a></li>
+					<li><a href="forms.html">Forms</a></li>
+					<li><a href="grid.html">Grid</a></li>
+					<li><a href="lorem.html">Lorem</a></li>
+				</ul>
+			</nav>
+			<div id="main-content" class="column width4 first layout-grid">
+				<header class="width2 first">
+					<h1>Data tables</h1>
+				</header>
+				<section class="column width4 first">
+					<h2>Columns based tables</h2>
+					<table class="table-column">
+						<caption>Basic table without any class.<br>It will normally divide itself in equal amount</caption>
+						<thead>
+							<tr>
+								<th>header 1</th>
+								<th>header 2</th>
+								<th>header 3</th>
+								<th>header 4</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+								<td>data 3</td>
+								<td>data 4</td>
+							</tr>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+								<td>data 3</td>
+								<td>data 4</td>
+							</tr>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+								<td>data 3</td>
+								<td>data 4</td>
+							</tr>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+								<td>data 3</td>
+								<td>data 4</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="table-column">
+						<caption>Basic table <code>&lt;table class="table-column"&gt;</code></caption>
+						<thead>
+							<tr>
+								<th class="width1">header 1</th>
+								<th>header 2</th>
+								<th>header 3</th>
+								<th>header 4</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+								<td>data 3</td>
+								<td>data 4</td>
+							</tr>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+								<td>data 3</td>
+								<td>data 4</td>
+							</tr>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+								<td>data 3</td>
+								<td>data 4</td>
+							</tr>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+								<td>data 3</td>
+								<td>data 4</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="table-column width3">
+						<caption>3 columns table <code>&lt;table class="table-column width3"&gt;</code></caption>
+						<thead>
+							<tr>
+								<th>header 1</th>
+								<th>header 2</th>
+								<th>header 3</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+								<td>data 3</td>
+							</tr>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+								<td>data 3</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="table-column">
+						<caption>3 columns table <code>&lt;table class="table-column"&gt;</code></caption>
+						<thead>
+							<tr>
+								<th class="width2">header 1 <code>class="width2"</code></th>
+								<th>header 2</th>
+								<th>header 3</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+								<td>data 3</td>
+							</tr>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+								<td>data 3</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="table-column">
+						<caption>2 columns table <code>&lt;table class="table-column"&gt;</code></caption>
+						<thead>
+							<tr>
+								<th class="width3">header 1 <code>class="width3"</code></th>
+								<th>header 2</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+							</tr>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="table-column">
+						<caption>1 column table <code>&lt;table class="table-column"&gt;</code></caption>
+						<thead>
+							<tr>
+								<th class="width4">header 1 <code>class="width4"</code></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>data 1</td>
+							</tr>
+							<tr>
+								<td>data 1</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="table-column width2">
+						<caption>1 column table <code>&lt;table class="table-column width2"&gt;</code></caption>
+						<thead>
+							<tr>
+								<th class="width2">header 1 <code>class="width2"</code></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>data 1</td>
+							</tr>
+							<tr>
+								<td>data 1</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+				<section class="column width4 first">
+					<h2>Units based tables</h2>
+					<table class="table-unit">
+						<caption>Basinc table with Units <code>&lt;table class="table-unit"&gt;</code></caption>
+						<thead>
+							<tr>
+								<th>header 1</th>
+								<th>header 2</th>
+								<th>header 3</th>
+								<th>header 4</th>
+								<th>header 5</th>
+								<th>header 6</th>
+								<th>header 7</th>
+								<th>header 8</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+								<td>data 3</td>
+								<td>data 4</td>
+								<td>data 5</td>
+								<td>data 6</td>
+								<td>data 7</td>
+								<td>data 8</td>
+							</tr>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+								<td>data 3</td>
+								<td>data 4</td>
+								<td>data 5</td>
+								<td>data 6</td>
+								<td>data 7</td>
+								<td>data 8</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="table-unit">
+						<thead>
+							<tr>
+								<th class="unitx2">header 1 <code>class="unitx2"</code></th>
+								<th>header 2</th>
+								<th>header 3</th>
+								<th>header 4</th>
+								<th>header 5</th>
+								<th>header 6</th>
+								<th>header 7</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+								<td>data 3</td>
+								<td>data 4</td>
+								<td>data 5</td>
+								<td>data 6</td>
+								<td>data 7</td>
+							</tr>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+								<td>data 3</td>
+								<td>data 4</td>
+								<td>data 5</td>
+								<td>data 6</td>
+								<td>data 7</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="table-unit">
+						<thead>
+							<tr>
+								<th class="unitx3">header 1 <code>class="unitx3"</code></th>
+								<th>header 2</th>
+								<th>header 3</th>
+								<th>header 4</th>
+								<th>header 5</th>
+								<th>header 6</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+								<td>data 3</td>
+								<td>data 4</td>
+								<td>data 5</td>
+								<td>data 6</td>
+							</tr>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+								<td>data 3</td>
+								<td>data 4</td>
+								<td>data 5</td>
+								<td>data 6</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="table-unit">
+						<thead>
+							<tr>
+								<th class="unitx4">header 1 <code>class="unitx4"</code></th>
+								<th>header 2</th>
+								<th>header 3</th>
+								<th>header 4</th>
+								<th>header 5</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+								<td>data 3</td>
+								<td>data 4</td>
+								<td>data 5</td>
+							</tr>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+								<td>data 3</td>
+								<td>data 4</td>
+								<td>data 5</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="table-unit">
+						<thead>
+							<tr>
+								<th class="unitx5">header 1 <code>class="unitx5"</code></th>
+								<th>header 2</th>
+								<th>header 3</th>
+								<th>header 4</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+								<td>data 3</td>
+								<td>data 4</td>
+							</tr>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+								<td>data 3</td>
+								<td>data 4</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="table-unit">
+						<thead>
+							<tr>
+								<th class="unitx6">header 1 <code>class="unitx6"</code></th>
+								<th>header 2</th>
+								<th>header 3</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+								<td>data 3</td>
+							</tr>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+								<td>data 3</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="table-unit">
+						<thead>
+							<tr>
+								<th class="unitx7">header 1 <code>class="unitx7"</code></th>
+								<th>header 2</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+							</tr>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="table-unit">
+						<thead>
+							<tr>
+								<th class="unitx8">header 1 <code>class="unitx8"</code></th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>data 1</td>
+							</tr>
+							<tr>
+								<td>data 1</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+				<section class="column width4 first">
+					<h2>Alternate</h2>
+					<table class="table-column table-reverse">
+						<caption>Alternate table header style<code>&lt;table class="table-column table-reverse"&gt;</code></caption>
+						<thead>
+							<tr>
+								<th>header 1</th>
+								<th>header 2</th>
+								<th>header 3</th>
+								<th>header 4</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+								<td>data 3</td>
+								<td>data 4</td>
+							</tr>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+								<td>data 3</td>
+								<td>data 4</td>
+							</tr>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+								<td>data 3</td>
+								<td>data 4</td>
+							</tr>
+							<tr>
+								<td>data 1</td>
+								<td>data 2</td>
+								<td>data 3</td>
+								<td>data 4</td>
+							</tr>
+						</tbody>
+					</table>
+					<p>The first and last column in the &ldquo;reverse&rdquo; style are a little bit smaller to accomodate the left and right padding. The alternate table style need the baseline.reverse-table.css included in the /css/alternate folder</p>
+				</section>
+			</div>
+			<footer class="width4 clear">
+				<p><small>&copy; 2009 St&eacute;phane Curzi, <a href="http://www.projeturbain.com" target="_blank">ProjetUrbain.com</a>.<br>
+					Content of this site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank">Creative Commons Attribution-Share Alike 3.0 Unported License</a>.</small></p>
+			</footer>
+		</div>
+	</body>
+</html>

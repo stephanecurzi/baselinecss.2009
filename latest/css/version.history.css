@@ -1,0 +1,23 @@
+/*
+Baseline - a designer framework by ProjetUrbain.com
+Copyright (C) 2009 Stephane Curzi, ProjetUrbain.com
+Creative Commons Attribution-Share Alike 3.0 License
+
+Version 0.2
+- Added a new stylesheet baseline.table.css
+- Added a new stylesheet alternate/baseline.ie.css for IE specific hack
+- Added a new stylesheet alternate/baseline.reverse-table.css
+- Added the table sizes to baseline.grid.css
+- Remove most of the table styles from baseline.type.css
+- Changed CAPTION style and removed TR background from baseline.base.css
+
+Version 0.1.2
+- Change to baseline.type.css to remove the margin when nesting several UL or OL
+
+Version 0.1.1
+- Minor change to baseline.form.css to fix a bug in Opera browser
+
+Version 0.1
+- First release
+
+*/
