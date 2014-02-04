@@ -1,0 +1,20 @@
+# osx noise
+.DS_Store
+profile
+
+# xcode noise
+build/*
+*.pbxuser
+*.mode1v3
+
+.svn
+
+# Espresso files
+*.esproj
+*.espressostorage
+
+# Sass
+*.sass-cache
+
+# Hammer
+.hammer-ignore
