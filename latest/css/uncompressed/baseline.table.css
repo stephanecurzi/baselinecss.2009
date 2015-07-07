@@ -1,0 +1,17 @@
+/*
+Baseline - a designer framework
+Copyright (C) 2009 Stephane Curzi, ProjetUrbain.com
+Creative Commons Attribution-Share Alike 3.0 License
+*/
+
+/******************** Table ********************/
+table								{ border-top: solid 3px #000; position: relative; top: -3px; margin-top: 18px; padding-bottom: 15px; }
+th, td								{ border-top: solid 1px #000; line-height: 18px; padding: 9px 18px 8px 0; position: relative; }
+
+th:first-child, td:first-child		{ padding-left: 0; }
+th:last-child, td:last-child		{ padding-right: 0; }
+
+tr:nth-child(even) td				{ }
+tr:nth-child(odd) td				{ background: #f6f6f6; }
+
+caption								{ top: 8px; margin-bottom: 18px; }

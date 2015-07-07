@@ -1,0 +1,41 @@
+/*
+Baseline - a designer framework
+Copyright (C) 2009 Stephane Curzi, ProjetUrbain.com
+Creative Commons Attribution-Share Alike 3.0 License
+*/
+/* Page style */
+#page					{ margin: 0 auto 36px auto; }
+body					{ -webkit-text-stroke: 1px transparent; }
+.layout-grid			{ background: url(../../css/background-grid/images/baseline+column.png) repeat 0 1px; border-bottom: solid 1px #b3e2f0; }
+
+#branding h1			{ font-size: 50px; top: 0px; font-weight: normal; text-shadow: 0 -1px 2px rgba(1, 1, 1, 0.35); color: #fff; }
+#branding				{ height: 90px; position: relative; margin-bottom: 36px; }
+#branding .logo			{ background: url(../images/header.png) no-repeat #900; -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.35); width: 486px; height: 90px; float: left; }
+#branding .logo a		{ background: none; width: 486px; height: 90px; position: absolute; top: 0; left: 0; }
+#branding h1			{ margin: 17px 0 0 18px; float: right; margin-right: 18px; }
+
+nav ul					{ text-align: right; }
+nav li					{ display: inline; margin-left: 12px; padding-left: 12px; border-left: solid 1px #000; }
+nav li:first-child		{ margin-left: 0; padding-left: 0; border: none; }
+nav a					{ font-weight: bold; text-decoration: none; }
+
+/* Type */
+.white-space			{ margin-left: 0; list-style-type: none; clear: both; }
+.space-width			{ font-family: times, "times new roman", serif; line-height: 14px; }
+.description			{ display: block; float: left; clear: left; }
+.description code		{ color: #999; }
+.space-width			{ background: rgba(255, 255, 0, 0.4); }
+
+/* Table */
+table code				{ background: rgba(187, 204, 221, 0.3); font-weight: normal; color: #069; margin-left: 18px; padding: 1px 4px; }
+
+/* Grid */
+.grid-example			{ background: rgba(187, 204, 221, 0.3); color: #069; }
+
+.grid-example.unitx1, .grid-example.unitx2,
+.grid-example.unitx3, .grid-example.unitx4,
+.grid-example.unitx5, .grid-example.unitx6,
+.grid-example.unitx7	{ margin-bottom: 18px; }
+
+footer					{ border-top: solid 4px #000; background: url(../images/icones-creative-commons.png) no-repeat 918px 0; margin-top: 50px; position: relative; }
+
