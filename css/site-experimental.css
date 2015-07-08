@@ -44,7 +44,7 @@ hr									{ background: #900; }
 
 /* layout */
 #branding							{ height: 90px; position: relative; margin-bottom: 36px; }
-#branding .logo						{ background: url(/images/header.png) no-repeat #900; -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.35); width: 486px; height: 90px; float: left; }
+#branding .logo						{ background: url(/baselinecss.2009/images/header.png) no-repeat #900; -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.35); width: 486px; height: 90px; float: left; }
 #branding .logo a					{ background: none; width: 486px; height: 90px; position: absolute; top: 0; left: 0; }
 #branding h1						{ margin: 17px 0 0 18px; float: right; margin-right: 18px; }
 #branding h2						{ margin: 9px 0 0 18px; float: left; }

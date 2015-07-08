@@ -131,7 +131,7 @@ a.photo:hover						{ background: none; }
 .message-ie div						{ padding: 18px; }
 .message-ie ul						{ height: 36px; margin-top: 9px; }
 .message-ie li						{ height: 36px; line-height: 36px; display: inline; }
-.message-ie li a					{ background: url(/images/icones-browser-ie.png) no-repeat 0 0; height: 36px; line-height: 36px; padding: 0 9px 0 36px; margin-right: 18px; float: left; }
+.message-ie li a					{ background: url(/baselinecss.2009/images/icones-browser-ie.png) no-repeat 0 0; height: 36px; line-height: 36px; padding: 0 9px 0 36px; margin-right: 18px; float: left; }
 .message-ie li a:hover				{ background-color: #000; }		
 .message-ie li.browser-safari a			{ background-position: 0 0; }
 .message-ie li.browser-safari a:hover	{ background-position: 0 -36px; }
