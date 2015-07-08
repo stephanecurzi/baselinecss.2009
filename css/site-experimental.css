@@ -55,7 +55,7 @@ hr									{ background: #900; }
 .grid-button ul 					{ width: 100px; top: 0; margin: 0; display: block; float: left; }
 .grid-button li						{ border-right: solid 1px #f2f2f2; width: 24px; height: 24px; display: block; float: left; }
 .grid-button li.grid-remove			{ border: none; }
-.grid-button li a					{ background-color: transparent; background-image: url(/images/icones.png); background-repeat: no-repeat; width: 24px; height: 24px; display: block; float: left; text-indent: -1000em; }
+.grid-button li a					{ background-color: transparent; background-image: url(/baselinecss.2009/images/icones.png); background-repeat: no-repeat; width: 24px; height: 24px; display: block; float: left; text-indent: -1000em; }
 .grid-button li a:hover				{ background-color: #f2f2f2; }
 .grid-button li a:active			{ background-color: #d00; }
 
@@ -76,11 +76,11 @@ nav									{ border-top: solid 4px #000; height: 36px; margin-top: 14px; margin
 #main-menu li a:active				{ border-left: solid 1px #d00; background-color: #d00; }
 
 #main-menu .menu-home a				{ border-left: solid 1px #f2f2f2; }
-#main-menu .menu-download a			{ background: url(/images/icones.png) no-repeat 0 -324px transparent; padding-left: 36px; }
+#main-menu .menu-download a			{ background: url(/baselinecss.2009/images/icones.png) no-repeat 0 -324px transparent; padding-left: 36px; }
 
 #main-menu li.menu-lorem			{ height: 36px; width: 36px; float: right; text-indent: -1000em; }
 #main-menu li.menu-lorem a			{ border-left: none; height: 36px; width: 36px; padding: 0; }
-#main-menu li.menu-lorem a:hover	{ background: url(/images/icones.png) no-repeat 0 -396px transparent; }
+#main-menu li.menu-lorem a:hover	{ background: url(/baselinecss.2009/images/icones.png) no-repeat 0 -396px transparent; }
 
 .page-home #main-menu .menu-home a					{ border-left: solid 1px #000; background: #000; color: #fff; cursor: default; }
 .page-typography #main-menu .menu-typography a		{ border-left: solid 1px #000; background: #000; color: #fff; cursor: default; }
@@ -132,7 +132,7 @@ a.photo:hover						{ background: none; }
 .message-ie div						{ padding: 18px; }
 .message-ie ul						{ height: 36px; margin-top: 9px; }
 .message-ie li						{ height: 36px; line-height: 36px; display: inline; }
-.message-ie li a					{ background: url(/images/icones-browser-ie.png) no-repeat 0 0; height: 36px; line-height: 36px; padding: 0 9px 0 36px; margin-right: 18px; float: left; }
+.message-ie li a					{ background: url(/baselinecss.2009/images/icones-browser-ie.png) no-repeat 0 0; height: 36px; line-height: 36px; padding: 0 9px 0 36px; margin-right: 18px; float: left; }
 .message-ie li a:hover				{ background-color: #000; }		
 .message-ie li.browser-safari a			{ background-position: 0 0; }
 .message-ie li.browser-safari a:hover	{ background-position: 0 -36px; }
@@ -152,9 +152,9 @@ a.photo:hover						{ background: none; }
 .button:hover						{ border-bottom: solid 1px #123; background: #678; background: -webkit-gradient(linear, left top, left bottom, from(#567), to(#234)); }
 .button:active						{ top: 1px; }
 .button a							{ padding: 6px 12px 5px 12px; display: block; }
-.button a.email						{ background: url(/images/icones.png) no-repeat 0 -364px; padding: 6px 12px 5px 32px; }
+.button a.email						{ background: url(/baselinecss.2009/images/icones.png) no-repeat 0 -364px; padding: 6px 12px 5px 32px; }
 
 
 /******************** footer ********************/
 /* layout */
-footer								{ border-top: solid 4px #000; background: url(/images/creative-commons.png) no-repeat 918px 0; margin-top: 14px; padding-bottom: 18px; position: relative; }
+footer								{ border-top: solid 4px #000; background: url(/baselinecss.2009/images/creative-commons.png) no-repeat 918px 0; margin-top: 14px; padding-bottom: 18px; position: relative; }
